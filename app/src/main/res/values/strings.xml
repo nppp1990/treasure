@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">treasure</string>
+    <string name="demo_title_login">登录</string>
+    <string name="demo_title_register">注册</string>
+    <string name="demo_title_main">收支明细</string>
+    <string name="demo_title_add">新增收支</string>
+    <string name="demo_title_edit">编辑明细</string>
+    <string name="demo_title_statics">数据统计</string>
+
+    <string name="demo_welcome_title">理财通</string>
+    <string name="demo_introduce">这是个欢迎页</string>
+</resources>

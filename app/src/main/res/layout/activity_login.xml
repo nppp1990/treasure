@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+<!--    <TextView-->
+<!--        android:id="@+id/login"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="登录"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        android:textSize="20sp" />-->
+
+    <EditText
+        android:id="@+id/et_account"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:hint="请输入账号"
+        android:textSize="16sp" />
+    <!--  密码编辑框-->
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+    <!--  登录按钮-->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <!--    注册链接-->
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="注册"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+</LinearLayout>

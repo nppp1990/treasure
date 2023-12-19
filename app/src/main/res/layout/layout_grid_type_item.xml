@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/type_icon"
+        android:layout_marginTop="10dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_type"
+        android:padding="8dp"
+        android:src="@drawable/type1" />
+
+    <TextView
+        android:id="@+id/type_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="14sp"
+        tools:text="餐饮" />
+</LinearLayout>
